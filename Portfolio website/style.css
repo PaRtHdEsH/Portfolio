@@ -1,0 +1,26 @@
+/* Custom Styles */
+body {
+  padding-top: 50px;
+}
+.jumbotron {
+  text-align: center;
+  background-color: #30557b;
+}
+.card {
+  margin-bottom: 20px;
+}
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+/* Adjust image size for portfolio cards */
+.card-img-top {
+  max-width: 100%; /* Adjust as needed */
+  height: auto; /* This ensures the aspect ratio is maintained */
+}
+/* Adjust image size for navbar logo */
+.navbar-brand img {
+  max-width: 150px; /* Adjust as needed */
+  height: auto; /* This ensures the aspect ratio is maintained */
+}
